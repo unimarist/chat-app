@@ -11,13 +11,41 @@
   background-color: #253141;
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-name{
+  color: #FAFAFA;
+  font-size: 16px;
+}
+
+.chat-create{
+  border: 1px solid #add8e6;
+  font-size: 10px;
+  color: #00bfff;
+  padding: 14px;
 }
 
 .room-space{
   background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding: 0 20px;
-  
+  display: flex;
+  flex-flow: column
+}
+
+.test1{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #FAFAFA;
+}
+
+.test2{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #FAFAFA;
 }
 
 .chat-main {
