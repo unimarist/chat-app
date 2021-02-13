@@ -38,14 +38,7 @@
   flex-flow: column
 }
 
-.test1{
-  margin-top: 20px;
-  margin-bottom: 40px;
-  color: #FAFAFA;
-  text-decoration: none;
-}
-
-.test2{
+.room{
   margin-top: 20px;
   margin-bottom: 40px;
   color: #FAFAFA;
