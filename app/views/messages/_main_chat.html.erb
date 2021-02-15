@@ -12,7 +12,7 @@
        <div class="chat-top">
          <div class="group"> <%= @room.name %></div>
          <div class="chatend-div">
-          <a href="#" class="chatend">チャットを終了する</a>
+          <%= link_to "チャットを終了する", room_path(@room),class: "chatend", method: :delete %>
          </div>
        </div>
 
