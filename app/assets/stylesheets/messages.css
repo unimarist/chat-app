@@ -81,11 +81,11 @@
   padding: 46px 40px 0;
 }
 
-.middle-cont-1{
+.upper-message{
   display: flex;
 }
 
-.middle-name{
+.message-user{
   margin-top: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -93,37 +93,13 @@
   color: #434A54;
 }
 
-.date{
+.message-date{
   margin-top: 10px;
   font-size: 12px;
   color: #999;
 }
 
-.middle-greet{
-  font-size: 14px;
-  color: #434A54;
-  margin-bottom: 40px;
-}
-
-.middle-cont-2{
-  display: flex;
-}
-
-.middle-name-2{
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  font-size: 16px;
-  color: #434A54;
-}
-
-.date-2{
-  margin-top: 10px;
-  font-size: 12px;
-  color: #999;
-}
-
-.middle-greet-2{
+.message-content{
   font-size: 14px;
   color: #434A54;
   margin-bottom: 40px;
